@@ -1,269 +1,212 @@
 <!doctype html>
-<html lang="en" dir="ltr">
+<html lang="ar" dir="rtl">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>FetaPos Trading - Product Showcase</title>
+    <title>AlphaPos Trading - Product Showcase</title>
+    <meta
+      name="description"
+      content="A focused product showcase for AlphaPos Trading, the scalable POS, inventory, finance, staff, and ERP platform."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700;800&family=Inter:wght@500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700;800;900&family=Inter:wght@600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260524-2" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="FetaPos Trading">
-        <span class="brand-feta">Feta</span><span class="brand-pos">Pos</span>
-        <span class="brand-trading">Trading</span>
+  <body class="showcase-page" data-lang="ar">
+    <header class="showcase-nav">
+      <a class="showcase-brand" href="./index.html" aria-label="AlphaPos Trading">
+        <span>Alpha</span><span>Pos</span><span>Trading</span>
       </a>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="#screens" data-i18n="navScreens">Screens</a>
-        <a href="#features" data-i18n="navFeatures">Features</a>
-        <a href="#pricing" data-i18n="navPricing">Pricing</a>
+      <nav>
+        <a href="#versions"><span data-ar>الباقات</span><span data-en>Versions</span></a>
+        <a href="#screens"><span data-ar>الشاشات</span><span data-en>Screens</span></a>
+        <a href="#download"><span data-ar>التحميل</span><span data-en>Download</span></a>
       </nav>
-      <button class="language-toggle" id="languageToggle" type="button">
-        عربي
+      <button class="showcase-language" type="button" id="languageToggle">
+        <span data-ar>English</span><span data-en>العربية</span>
       </button>
     </header>
 
-    <main id="top">
-      <section class="hero section-grid">
-        <div class="hero-copy">
-          <p class="eyebrow" data-i18n="eyebrow">Inventory & POS Platform</p>
-          <h1 data-i18n="heroTitle">
-            A powerful store management system for modern retailers.
+    <main>
+      <section class="showcase-hero">
+        <div class="showcase-hero-copy">
+          <div class="showcase-hero-brand" aria-label="AlphaPos Trading">
+            <span>Alpha</span><b>Pos</b><span>Trading</span>
+          </div>
+          <p class="showcase-kicker">Product Showcase</p>
+          <h1>
+            <span data-ar>منصة واحدة تبدأ بالمخزن وتنتهي بنظام ERP كامل.</span>
+            <span data-en>One platform that starts with inventory and grows into a complete ERP.</span>
           </h1>
-          <p class="hero-text" data-i18n="heroText">
-            FetaPos Trading brings inventory, sales, staff permissions,
-            invoices, reports, and AI support into one clean business workflow.
+          <p>
+            <span data-ar>
+              عرض المنتج: الشاشات، الباقات، وطريقة الترقية من JETA إلى ALPHA بدون نقل بيانات.
+            </span>
+            <span data-en>
+              A standalone product page for the screens, versions, and upgrade path from JETA to ALPHA without moving data.
+            </span>
           </p>
-          <div class="hero-actions">
-            <a class="primary-button" href="#screens" data-i18n="seeScreens"
-              >View Screens</a
-            >
-            <a class="secondary-button" href="#pricing" data-i18n="seePlans"
-              >See Plans</a
-            >
+          <div class="showcase-offer">
+            <strong><span data-ar>خصم 25%</span><span data-en>25% OFF</span></strong>
+            <span data-ar>عرض إطلاق لفترة محدودة على الباقات</span>
+            <span data-en>Limited launch offer on AlphaPos plans</span>
+          </div>
+          <div class="showcase-actions">
+            <a class="showcase-primary" href="https://earnest-pegasus-alphapos.netlify.app/index.html">
+              <span data-ar>افتح الموقع الرئيسي</span><span data-en>Open Main Website</span>
+            </a>
+            <a class="showcase-secondary" href="https://wa.me/201005144500?text=I%20want%20a%20demo%20for%20AlphaPos%20Trading">
+              <span data-ar>اطلب ديمو واتساب</span><span data-en>Request WhatsApp Demo</span>
+            </a>
           </div>
         </div>
-        <div class="phone-preview" aria-label="Application preview">
-          <div class="phone-shell">
-            <div class="status-bar"></div>
-            <div class="app-screen">
-              <div class="mini-logo">
-                <span>Feta</span><strong>Pos</strong> Trading
-              </div>
-              <h2 data-i18n="previewStore">Your Store</h2>
-              <p data-i18n="previewWelcome">Welcome, Store Owner</p>
-              <div class="chart-card">
-                <span data-i18n="dailySales">Daily Sales</span>
-                <strong>EGP 0.00</strong>
-                <div class="chart-line"></div>
-              </div>
-              <div class="metric-row">
-                <div><span data-i18n="items">Items</span><strong>128</strong></div>
-                <div><span data-i18n="lowStock">Low Stock</span><strong>4</strong></div>
-              </div>
-            </div>
-          </div>
+        <div class="showcase-alpha-card" aria-label="Alpha version summary">
+          <div class="alpha-card-logo"><span>Alpha</span><b>Pos</b> Trading</div>
+          <p>ALPHA VERSION</p>
+          <h2><span data-ar>ERP كامل في نفس الحساب</span><span data-en>Complete ERP in one account</span></h2>
+          <ul>
+            <li><span data-ar>فروع متعددة</span><span data-en>Multi-branch control</span></li>
+            <li><span data-ar>خبير مالي ذكي</span><span data-en>AI financial expert</span></li>
+            <li><span data-ar>صلاحيات متقدمة</span><span data-en>Advanced permissions</span></li>
+            <li><span data-ar>ترقية بدون نقل بيانات</span><span data-en>Upgrade without moving data</span></li>
+          </ul>
         </div>
       </section>
 
-      <section class="stats-strip">
+      <section class="showcase-strip" aria-label="Core promise">
         <div>
-          <strong>2</strong>
-          <span data-i18n="rolesStat">Main business modes</span>
+          <strong><span data-ar>منصة واحدة</span><span data-en>One Platform</span></strong>
+          <span data-ar>كل الباقات تعمل على نفس النظام ونفس قاعدة البيانات.</span>
+          <span data-en>All versions run on the same system and the same data.</span>
         </div>
         <div>
-          <strong>4</strong>
-          <span data-i18n="permissionsStat">Permission levels</span>
+          <strong><span data-ar>ترقية فورية</span><span data-en>Instant Upgrade</span></strong>
+          <span data-ar>العميل يغير الاشتراك فتظهر أدوات جديدة بدون إعادة تثبيت.</span>
+          <span data-en>Change the subscription and new tools appear without reinstalling.</span>
         </div>
         <div>
-          <strong>24/7</strong>
-          <span data-i18n="supportStat">Smart support ready</span>
+          <strong><span data-ar>قابل للتوسع</span><span data-en>Scalable</span></strong>
+          <span data-ar>من محل صغير إلى فروع متعددة وخبير مالي ذكي.</span>
+          <span data-en>From a small shop to branches, ERP, and an AI financial expert.</span>
         </div>
       </section>
 
-      <section id="screens" class="section">
-        <div class="section-heading">
-          <p class="eyebrow" data-i18n="screensEyebrow">Product Screens</p>
-          <h2 data-i18n="screensTitle">Designed around daily store work.</h2>
-          <p data-i18n="screensText">
-            Each screen focuses on speed, clarity, and safe access to sensitive
-            business data.
-          </p>
+      <section class="showcase-section" id="versions">
+        <div class="showcase-section-head">
+          <p class="showcase-kicker">Versions</p>
+          <h2>
+            <span data-ar>اختار الباقة المناسبة وافتح الأدوات وقت ما تحتاجها</span>
+            <span data-en>Choose the right version and unlock tools when you need them</span>
+          </h2>
         </div>
-        <div class="screen-grid">
-          <article class="screen-card">
-            <div class="screenshot-pair">
-              <button class="screenshot-frame" type="button" data-preview="./screenshots/admin-dashboard.png">
-                <img
-                  src="./screenshots/admin-dashboard.png"
-                  alt="FetaPos Trading Admin Dashboard accounting view"
-                />
-              </button>
-              <button class="screenshot-frame" type="button" data-preview="./screenshots/admin-dashboard-grid.png">
-                <img
-                  src="./screenshots/admin-dashboard-grid.png"
-                  alt="FetaPos Trading Admin Dashboard product grid"
-                />
-              </button>
-            </div>
-            <h3 data-i18n="adminTitle">Admin Dashboard</h3>
-            <p data-i18n="adminText">
-              A command center for sales, inventory alerts, accounting summaries,
-              staff access, and store settings.
-            </p>
-          </article>
-          <article class="screen-card">
-            <button class="screenshot-frame" type="button" data-preview="./screenshots/seller-pos.png">
-              <img
-                src="./screenshots/seller-pos.png"
-                alt="FetaPos Trading Seller POS"
-              />
-            </button>
-            <h3 data-i18n="posTitle">Seller POS</h3>
-            <p data-i18n="posText">
-              A fast checkout experience with product cards, basket management,
-              invoices, and direct print support.
-            </p>
-          </article>
-          <article class="screen-card">
-            <button class="screenshot-frame" type="button" data-preview="./screenshots/inventory-report.png">
-              <img
-                src="./screenshots/inventory-report.png"
-                alt="FetaPos Trading Inventory Report"
-              />
-            </button>
-            <h3 data-i18n="inventoryTitle">Inventory Report</h3>
-            <p data-i18n="inventoryText">
-              Product tables, low-stock indicators, discounts, hidden profit
-              values, and printable reports.
-            </p>
-          </article>
-          <article class="screen-card">
-            <div class="screenshot-pair">
-              <button class="screenshot-frame" type="button" data-preview="./screenshots/settings.png">
-                <img
-                  src="./screenshots/settings.png"
-                  alt="FetaPos Trading Settings"
-                />
-              </button>
-              <button class="screenshot-frame" type="button" data-preview="./screenshots/ai-support.png">
-                <img
-                  src="./screenshots/ai-support.png"
-                  alt="FetaPos Trading AI Support Chat"
-                />
-              </button>
-            </div>
-            <h3 data-i18n="settingsTitle">Settings, Security & AI Support</h3>
-            <p data-i18n="settingsText">
-              Store controls for privacy PINs, staff management security,
-              language switching, pricing, and built-in AI support access.
-            </p>
-          </article>
+        <div class="showcase-timeline">
+          <article><b>JETA</b><span data-ar>مخازن، منتجات، جرد، تقارير مخزون.</span><span data-en>Inventory, products, stock count, inventory reports.</span></article>
+          <article><b>FETA</b><span data-ar>كل JETA + البيع ونقطة البيع والفواتير.</span><span data-en>Everything in JETA + POS, sales, and invoices.</span></article>
+          <article><b>BETA</b><span data-ar>كل FETA + الخزينة والمصاريف والعملاء والموردين.</span><span data-en>Everything in FETA + cashbox, expenses, customers, suppliers.</span></article>
+          <article><b>THETA</b><span data-ar>كل BETA + الموظفين والمرتبات والخصم والمكافآت.</span><span data-en>Everything in BETA + staff, payroll, deductions, rewards.</span></article>
+          <article><b>ZETA</b><span data-ar>كل THETA + القيود اليومية والتحليل المالي.</span><span data-en>Everything in THETA + journal entries and financial analysis.</span></article>
+          <article><b>ALPHA</b><span data-ar>كل ZETA + الفروع وERP والخبير المالي الذكي.</span><span data-en>Everything in ZETA + branches, ERP, and AI financial expert.</span></article>
         </div>
       </section>
 
-      <section id="features" class="section split-section">
+      <section class="showcase-section showcase-screens" id="screens">
+        <div class="showcase-section-head">
+          <p class="showcase-kicker">Inside The Product</p>
+          <h2><span data-ar>لقطات من شاشات البرنامج</span><span data-en>Real screens from the product</span></h2>
+        </div>
+        <div class="showcase-screen-grid">
+          <figure>
+            <img src="./screenshots/admin-dashboard-grid.png" alt="Admin dashboard tools grid" />
+            <figcaption><span data-ar>لوحة تحكم المدير</span><span data-en>Admin Dashboard</span></figcaption>
+          </figure>
+          <figure>
+            <img src="./screenshots/seller-pos.png" alt="Seller POS screen" />
+            <figcaption><span data-ar>نقطة البيع</span><span data-en>Seller POS</span></figcaption>
+          </figure>
+          <figure>
+            <img src="./screenshots/inventory-report.png" alt="Inventory report screen" />
+            <figcaption><span data-ar>تقارير المخزون</span><span data-en>Inventory Reports</span></figcaption>
+          </figure>
+          <figure>
+            <img src="./screenshots/ai-support.png" alt="AI support assistant screen" />
+            <figcaption><span data-ar>المساعد الذكي</span><span data-en>Smart Assistant</span></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="showcase-section showcase-alpha">
         <div>
-          <p class="eyebrow" data-i18n="featuresEyebrow">Business Features</p>
-          <h2 data-i18n="featuresTitle">Built for accountability and control.</h2>
-          <p data-i18n="featuresText">
-            FetaPos Trading keeps every role focused on the work they should do,
-            while protecting staff management and financial data with dedicated
-            PIN access.
+          <p class="showcase-kicker">ALPHA</p>
+          <h2>
+            <span data-ar>النسخة الأعلى للشركات التي تحتاج إدارة كاملة</span>
+            <span data-en>The top version for companies that need full control</span>
+          </h2>
+          <p>
+            <span data-ar>
+              Alpha تجمع المخازن، البيع، الخزينة، الموظفين، القيود، التحليل المالي، تعدد الفروع، والصلاحيات المتقدمة في تجربة واحدة.
+            </span>
+            <span data-en>
+              Alpha combines inventory, POS, cashbox, staff, journal entries, financial analysis, branches, and advanced permissions in one experience.
+            </span>
           </p>
         </div>
-        <div class="feature-list">
-          <div class="feature-item">
-            <span>01</span>
-            <div>
-              <h3 data-i18n="featureOneTitle">Role-based dashboards</h3>
-              <p data-i18n="featureOneText">
-                Store Owner, Branch Manager, Data Entry, and Seller see the
-                correct tools for their responsibilities.
-              </p>
-            </div>
-          </div>
-          <div class="feature-item">
-            <span>02</span>
-            <div>
-              <h3 data-i18n="featureTwoTitle">Protected profit visibility</h3>
-              <p data-i18n="featureTwoText">
-                Profit and inventory value remain hidden unless the store owner
-                unlocks them with a security PIN.
-              </p>
-            </div>
-          </div>
-          <div class="feature-item">
-            <span>03</span>
-            <div>
-              <h3 data-i18n="featureThreeTitle">Staff invite workflow</h3>
-              <p data-i18n="featureThreeText">
-                Share seller and data-entry invite links so every new employee is
-                connected to the correct store.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section tech-section">
-        <div class="section-heading compact">
-          <p class="eyebrow" data-i18n="techEyebrow">Technology</p>
-          <h2 data-i18n="techTitle">Reliable mobile-first stack.</h2>
-        </div>
-        <div class="tech-grid">
-          <span>Flutter</span>
-          <span>Firebase Auth</span>
-          <span>Cloud Firestore</span>
-          <span>PDF & Printing</span>
-          <span>ML Kit OCR</span>
-          <span>AI Assistant</span>
-        </div>
-      </section>
-
-      <section id="pricing" class="section">
-        <div class="section-heading">
-          <p class="eyebrow" data-i18n="pricingEyebrow">Plans</p>
-          <h2 data-i18n="pricingTitle">Flexible pricing after a 3-day trial.</h2>
-        </div>
-        <div class="pricing-grid">
-          <article class="pricing-card">
-            <h3 data-i18n="monthly">Monthly</h3>
-            <strong>$6</strong>
-            <p data-i18n="monthlyText">Best for testing and small shops.</p>
-          </article>
-          <article class="pricing-card highlighted">
-            <span class="badge" data-i18n="bestValue">Best Value</span>
-            <h3 data-i18n="annual">Annual</h3>
-            <strong>$60</strong>
-            <p data-i18n="annualText">Two months free compared with monthly.</p>
-          </article>
-          <article class="pricing-card">
-            <h3 data-i18n="lifetime">Lifetime</h3>
-            <strong>$200</strong>
-            <p data-i18n="lifetimeText">
-              One-time purchase with annual maintenance support.
-            </p>
-          </article>
-        </div>
+        <ul>
+          <li>Multi-branch ERP</li>
+          <li>AI financial expert</li>
+          <li>Advanced governance</li>
+          <li>Same data after every upgrade</li>
+        </ul>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <strong>FetaPos Trading</strong>
-      <span data-i18n="footerText">Management & Inventory Solutions</span>
+    <footer class="showcase-footer" id="download">
+      <div>
+        <h2>Get the App</h2>
+        <div class="showcase-store-row">
+          <a class="store-badge" href="https://wa.me/201005144500?text=Send%20me%20the%20AlphaPos%20web%20app%20link">
+            <span class="store-icon web-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.9 6h-3a15.2 15.2 0 0 0-1.3-3 8.1 8.1 0 0 1 4.3 3ZM12 4.1c.7 1 1.3 2.3 1.7 3.9h-3.4c.4-1.6 1-2.9 1.7-3.9ZM4.3 14a8.2 8.2 0 0 1 0-4h3.4a16.7 16.7 0 0 0 0 4H4.3Zm.8 2h3a15.2 15.2 0 0 0 1.3 3 8.1 8.1 0 0 1-4.3-3Zm3-8h-3a8.1 8.1 0 0 1 4.3-3 15.2 15.2 0 0 0-1.3 3Zm3.9 11.9c-.7-1-1.3-2.3-1.7-3.9h3.4c-.4 1.6-1 2.9-1.7 3.9ZM14.1 14H9.9a14.6 14.6 0 0 1 0-4h4.2a14.6 14.6 0 0 1 0 4Zm.5 5a15.2 15.2 0 0 0 1.3-3h3a8.1 8.1 0 0 1-4.3 3Zm1.7-5a16.7 16.7 0 0 0 0-4h3.4a8.2 8.2 0 0 1 0 4h-3.4Z"/></svg>
+            </span>
+            <span><small>Open as</small><b>Web App</b></span>
+          </a>
+          <a class="store-badge" href="https://wa.me/201005144500?text=Send%20me%20the%20Windows%20desktop%20installer">
+            <span class="store-icon windows-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 4.5 10.8 3v8.2H3V4.5Zm9.1-1.7L21 1.2v10h-8.9V2.8ZM3 12.8h7.8V21L3 19.6v-6.8Zm9.1 0H21v10l-8.9-1.6v-8.4Z"/></svg>
+            </span>
+            <span><small>Works on</small><b>Windows</b></span>
+          </a>
+          <a class="store-badge" href="https://wa.me/201005144500?text=Send%20me%20the%20Google%20Play%20download%20link">
+            <span class="store-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path class="play-blue" d="M4.4 3.3c-.3.3-.4.8-.4 1.4v14.6c0 .6.1 1.1.4 1.4l8-8.7-8-8.7Z"/><path class="play-green" d="m13.1 11.2 2.6-2.8L6.1 3c-.5-.3-.9-.3-1.3-.1l8.3 8.3Z"/><path class="play-yellow" d="m13.1 12.8-8.3 8.3c.4.2.8.2 1.3-.1l9.6-5.4-2.6-2.8Z"/><path class="play-red" d="m16.5 9-2.7 3 2.7 3 2.7-1.5c1-.6 1-1.4 0-2L16.5 9Z"/></svg>
+            </span>
+            <span><small>Get it on</small><b>Google Play</b></span>
+          </a>
+          <a class="store-badge" href="https://wa.me/201005144500?text=Send%20me%20the%20App%20Store%20download%20link">
+            <span class="store-icon store-icon-apple" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M16.9 12.7c0-2.4 2-3.6 2.1-3.7-1.1-1.6-2.8-1.8-3.4-1.8-1.5-.2-2.8.9-3.6.9-.7 0-1.9-.9-3.1-.8-1.6 0-3.1.9-3.9 2.4-1.7 2.9-.4 7.2 1.2 9.5.8 1.2 1.8 2.5 3.1 2.5 1.2 0 1.7-.8 3.2-.8s1.9.8 3.2.8 2.2-1.2 3-2.4c.9-1.3 1.3-2.6 1.3-2.7-.1-.1-2.6-1-2.6-3.9ZM14.6 5.6c.7-.8 1.1-1.9 1-3-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.8-1 2.9 1 .1 2-.5 2.7-1.3Z"/></svg>
+            </span>
+            <span><small>Download on the</small><b>App Store</b></span>
+          </a>
+        </div>
+      </div>
+      <a class="showcase-primary" href="https://earnest-pegasus-alphapos.netlify.app/index.html">
+        <span data-ar>اذهب للموقع الكامل</span><span data-en>Go to Full Website</span>
+      </a>
     </footer>
 
-    <dialog class="image-dialog" id="imageDialog" aria-label="Screenshot preview">
-      <button class="close-dialog" id="closeDialog" type="button">×</button>
-      <img id="dialogImage" alt="Application screenshot preview" />
-    </dialog>
-
-    <script src="./script.js?v=20260524-2"></script>
+    <script>
+      const body = document.body;
+      const toggle = document.getElementById('languageToggle');
+      toggle.addEventListener('click', () => {
+        const next = body.dataset.lang === 'ar' ? 'en' : 'ar';
+        body.dataset.lang = next;
+        document.documentElement.lang = next;
+        document.documentElement.dir = next === 'ar' ? 'rtl' : 'ltr';
+      });
+    </script>
   </body>
 </html>
